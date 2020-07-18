@@ -1,0 +1,12 @@
+./debian/nginx.conf
+./conf/win-utf
+./conf/koi-utf
+./conf/koi-win
+./conf/mime.types
+./conf/scgi_params
+./conf/fastcgi_params
+./conf/uwsgi_params
+./html/index.html
+./html/50x.html
+./debian/build-nginx/objs/nginx
+./debian/build-nginx-debug/objs/nginx-debug

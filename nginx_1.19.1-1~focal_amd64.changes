@@ -1,0 +1,27 @@
+Format: 1.8
+Source: nginx
+Binary: nginx nginx-dbg
+Architecture: amd64
+Version: 1.19.1-1~focal
+Distribution: focal
+Urgency: low
+Maintainer: Sergey Budnevitch <sb@nginx.com>
+Description:
+ nginx      - high performance web server
+ nginx-dbg  - nginx debug symbols
+Changes:
+ nginx (1.19.1-1~focal) focal; urgency=low
+ .
+   * 1.19.1
+Checksums-Sha1:
+ 79155a2abb319808447e69fbdefb37b58c677147 14554060 nginx-dbg_1.19.1-1~focal_amd64.deb
+ b782749358a599947b68f1125ccff4f0bdc2ea06 6089 nginx_1.19.1-1~focal_amd64.buildinfo
+ 6ae54ced0ca9c0a6f7042f4038192a2fe84b6701 8607368 nginx_1.19.1-1~focal_amd64.deb
+Checksums-Sha256:
+ a26687dd80f28cb5d304b68331b44f3ac9852a9c9c1a281bc868c00b3ad0cdd7 14554060 nginx-dbg_1.19.1-1~focal_amd64.deb
+ ae39a13bc25a3b5ec0b149bd3b2d2ca38d407ff650bac8d344ab29c8ed6d6c94 6089 nginx_1.19.1-1~focal_amd64.buildinfo
+ 2325e3e5c971cc5feb47b3577c6369f7957b9ca427b46004349a67fd89f65c6d 8607368 nginx_1.19.1-1~focal_amd64.deb
+Files:
+ 931a4ab683a1d509154fa811ce4321fc 14554060 debug extra nginx-dbg_1.19.1-1~focal_amd64.deb
+ a43ff3eb38750f4268276297dfb13a00 6089 httpd optional nginx_1.19.1-1~focal_amd64.buildinfo
+ d170bd189a3d4abd09f7e3213d306644 8607368 httpd optional nginx_1.19.1-1~focal_amd64.deb

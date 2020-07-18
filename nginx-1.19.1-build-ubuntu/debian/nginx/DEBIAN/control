@@ -1,0 +1,15 @@
+Package: nginx
+Version: 1.19.1-1~focal
+Architecture: amd64
+Maintainer: Sergey Budnevitch <sb@nginx.com>
+Installed-Size: 28000
+Depends: libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libpcre3, libssl1.1 (>= 1.1.1), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), lsb-base (>= 3.0-6), adduser
+Conflicts: nginx-common, nginx-core
+Replaces: nginx-common, nginx-core
+Provides: httpd
+Section: httpd
+Priority: optional
+Homepage: http://nginx.org
+Description: high performance web server
+ nginx [engine x] is an HTTP and reverse proxy server, as well as
+ a mail proxy server.
